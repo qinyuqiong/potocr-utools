@@ -1,0 +1,73 @@
+{
+  "main": "index.html",
+  "preload": "preload/services.js",
+  "logo": "logo.png",
+  "development": {
+    "main": "http://localhost:5173"
+  },
+  "features": [
+    {
+      "code": "pot-ocr",
+      "explain": "POT 截图OCR文字识别",
+      "cmds": [
+        "截图OCR",
+        "potocr",
+        "ocr",
+        "shijieocr",
+        "jietuocr",
+        "ocrshibie",
+        "ocrshi-bie",
+        "识别文字",
+        "shibie-wenzi",
+        "shibiewenzi",
+        {
+          "type": "img",
+          "label": "识别图片文字"
+        }
+      ]
+    },
+    {
+      "code": "pot-input-translate",
+      "explain": "POT 输入翻译",
+      "cmds": [
+        "输入翻译",
+        "potfanyi",
+        "shuru-fanyi",
+        "shurufanyi",
+        "fanyi",
+        "potfan yi",
+        {
+          "type": "text",
+          "label": "翻译文本"
+        }
+      ]
+    },
+    {
+      "code": "pot-screenshot-translate",
+      "explain": "POT 截图翻译",
+      "cmds": [
+        "截图翻译",
+        "jiefufany",
+        "jietufanyi",
+        "jietu-fanyi",
+        "potfanyi",
+        {
+          "type": "img",
+          "label": "翻译图片文字"
+        }
+      ]
+    },
+    {
+      "code": "pot-settings",
+      "explain": "POT OCR/翻译 设置",
+      "cmds": [
+        "potshezhi",
+        "potpeizhi",
+        "pot-shezhi",
+        "pot-peiZhi",
+        "pot设置",
+        "pot配置"
+      ]
+    }
+  ]
+}
