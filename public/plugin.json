@@ -11,15 +11,7 @@
       "explain": "POT 截图OCR文字识别",
       "cmds": [
         "截图OCR",
-        "potocr",
         "ocr",
-        "shijieocr",
-        "jietuocr",
-        "ocrshibie",
-        "ocrshi-bie",
-        "识别文字",
-        "shibie-wenzi",
-        "shibiewenzi",
         {
           "type": "img",
           "label": "识别图片文字"
@@ -31,11 +23,7 @@
       "explain": "POT 输入翻译",
       "cmds": [
         "输入翻译",
-        "potfanyi",
-        "shuru-fanyi",
-        "shurufanyi",
         "fanyi",
-        "potfan yi",
         {
           "type": "text",
           "label": "翻译文本"
@@ -47,10 +35,7 @@
       "explain": "POT 截图翻译",
       "cmds": [
         "截图翻译",
-        "jiefufany",
-        "jietufanyi",
-        "jietu-fanyi",
-        "potfanyi",
+        "jietu",
         {
           "type": "img",
           "label": "翻译图片文字"
@@ -61,12 +46,7 @@
       "code": "pot-settings",
       "explain": "POT OCR/翻译 设置",
       "cmds": [
-        "potshezhi",
-        "potpeizhi",
-        "pot-shezhi",
-        "pot-peiZhi",
-        "pot设置",
-        "pot配置"
+        "pot设置"
       ]
     }
   ]
